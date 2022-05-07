@@ -40,7 +40,7 @@ interface SurveyCaseTimelineItem{
 ``` TypeScript
 interface SurveyCaseConclusion {
     type: 'diagnosed'|'symptomless'|'unknown', // 病例类型： diagnosed:确诊、symptomless:无症状、unknown:未知
-    contacts: SurveyCaseContact[], // 有关联的病例编号
+    contacts: SurveyCaseContact[], // 有关联的病例列表
 }
 ```
 ``` TypeScript
